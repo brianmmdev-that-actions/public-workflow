@@ -1,0 +1,13 @@
+name: Hello Workflow!
+
+on:
+  [workflow_dispatch]
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Brian!
+        uses: brianmmdev-that-actions/public-action@main
+        with:
+          name: Brian
