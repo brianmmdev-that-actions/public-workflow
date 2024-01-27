@@ -10,4 +10,4 @@ jobs:
       - name: Why hello there...
         uses: brianmmdev-that-actions/public-action@main
         with:
-          name: Brian
+          name: Clark
